@@ -44,19 +44,5 @@ To set up this project, follow these steps:
 ## Flowchart
 
 Here is a flowchart that describes the workflow of this project:
-```plantuml
-@startuml
-start
 
-if (Triggered by new data in database?) then (yes)
-  :Retrieve data from database;
-  :Retrieve key file from S3;
-  :Perform masking on SSN data using key file;
-  :Convert data to JSON object;
-else (no)
-  :End process;
-endif
-
-stop
-@enduml
-```
+![image](https://user-images.githubusercontent.com/31472256/234401243-df1d8f9b-f625-43aa-8c09-db1d113c9030.png)
