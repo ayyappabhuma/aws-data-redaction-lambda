@@ -25,7 +25,7 @@ The workflow of this project is as follows:
 
 To set up this project, follow these steps:
 
-1. Create an AWS RDS instance with a MySQL database containing a `PersonSSN` table with SSNs to be masked. Note down the database host, port, name, username, and password.
+1. Create an AWS RDS instance with a MySQL database containing a `PersonSSN` table with SSNs to be masked. Note down the database host, port, name, username, and password. Add these details in the config.sh file.
 2. Create an S3 bucket containing a `key.txt` file with a mapping of SSN digits to be masked.
 3. Create an AWS Lambda function with the following settings:
    - Runtime: Python 3.9

@@ -1,5 +1,5 @@
-export DATABASE_HOST = 'keytaskdatabase.c8bkobkqy1xn.us-east-1.rds.amazonaws.com'
+export DATABASE_HOST = <link to database host>
 export DATABASE_PORT = 3306
-export DATABASE_NAME = 'keytaskdb'
-export DATABASE_USER = 'admin'
-export DATABASE_PASSWORD = 'hemanthsai999'
+export DATABASE_NAME = <database name>
+export DATABASE_USER = <database username>
+export DATABASE_PASSWORD = <database password>
